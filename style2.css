@@ -1,0 +1,107 @@
+.wraper {
+	max-width: 1180px;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0 5px;
+	overflow: hidden;
+}
+.row {
+	border: 1px solid yellow;
+	/*margin: 0 -15px;*/
+}
+.profit {
+	background-color: #04191f;
+	padding: 15px 0;
+}
+.profit .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.profit .item {
+	flex-basis: 200px;
+	flex-grow: 0;
+	/*height: 130px;*/
+	/*background-color: aqua;*/
+	margin: 15px;
+	text-align: center;
+}
+.profit .item-pair {
+	flex-basis: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.profit .item h3 {
+	color: white;
+}
+.profit .item p {
+	color: white;
+}
+header h1 {
+	/*margin: 0 auto;*/
+	text-align: center;
+}
+#loader {
+	display: none;
+}
+
+@media screen and (max-width: 487px) {
+	.profit .i2 {
+		order: -1;
+	}
+}
+
+
+.cl1 {
+	background: #81c74482;
+	display: none;
+}
+.cl2 {
+	background: #0600ff;
+	color: #ffeb3b;
+}
+.btn {
+	background: #308f83;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    width: 135px;
+}
+input {
+	color: #583cc3;
+    font-size: 20px;
+    text-align: center;
+    width: 140px;
+}
+
+.givemeIcon {
+	width: 100px;
+	height: 100px;
+
+}
+
+
+
+.gifspan img {
+	width: 60px;
+	height: 60px;
+}
+.gifspan {
+    position: absolute;
+    top: 82px;
+    left: 130px;
+    padding: 0px;
+    margin: 0px;
+    width: 60px;
+    height: 60px;
+    display: none;
+}
+#btnA {
+    position: relative;    
+    float: right;
+}
+
